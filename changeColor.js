@@ -288,10 +288,10 @@ test8.onclick = function () {
     getBySeason().then(data => {
         let result = data.filter(item => item.appearance.includes(season))
 
-        result.forEach(data => {
+        result.forEach(item => {
 
             console.log(result)
-            let { img, name } = data;
+            let { img, name } = item;
             let card = createCard(img, name);
             appendCard(card);
 
