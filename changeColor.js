@@ -25,17 +25,6 @@ function appendCard(card) {
 }
 
 
-// function removeElementsByClass(elements) {
-//     const elements = document.getElementsByClassName("card");
-//     while (elements.length > 0) {
-//         elements[0].parentNode.removeChild(elements[0]);
-//     }
-// }
-
-
-
-
-
 
 async function getData() {
     const requestURL = `https://www.breakingbadapi.com/api/character/random`;

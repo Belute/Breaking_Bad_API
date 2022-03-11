@@ -49,4 +49,24 @@ function appendCard(card) {
 
 
 
+async function getData() {
+    const requestURL = `https://www.breakingbadapi.com/api/character/random`;
+    const request = new Request(requestURL);
+    const response = await fetch(request);
+    const data = await response.json();
+    console.log(data);
+    return data;
+
+}
+
+async function getById(id) {
+    const requestURL = `https://www.breakingbadapi.com/api/characters/` + id;
+    const request = new Request(requestURL);
+    const response = await fetch(request);
+    const data = await response.json();
+    console.log(data);
+    return data;
+
+}
+
 ```
