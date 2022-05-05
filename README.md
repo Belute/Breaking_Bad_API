@@ -4,9 +4,9 @@
 
 
 
-This project is for **educational** porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for **educational** porpuses only. 
 
-Site published at: https://belute.github.io/Homework_Breaking_Bad/
+Site published at: https://belute.github.io/Breaking_Bad_API/
 
 
 ## Project features
