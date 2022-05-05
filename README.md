@@ -70,3 +70,28 @@ async function getById(id) {
 }
 
 ```
+```html
+  <div id=card class="card">
+            <img class="img" src="https://illumesense.com/resources/illumesense/style/img/website/profile-picture-blanks/male-profile.jpg" alt="John" height="250px" width="250px"></img>
+            <p>John Doe</p>
+            <p>Age:</p>
+            <p>Location:</p>
+            <p>Email:</p>
+        </div>
+```
+```css
+.btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  height: 5%;
+  margin: 0%;
+}
+```
