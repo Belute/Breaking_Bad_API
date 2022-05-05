@@ -22,7 +22,26 @@ Justinas: [Github](https://github.com/Belute)
 
 ## Code sample
 
-```function createCard(imageUrl, namelastname) {
+
+
+```css
+.btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+  font-size: 18px;
+  height: 5%;
+  margin: 0%;
+}
+```
+```js
+function createCard(imageUrl, namelastname) {
     let img = document.createElement("img");
     img.className = "img";
     img.src = imageUrl;
@@ -59,15 +78,6 @@ async function getData() {
 
 }
 
-async function getById(id) {
-    const requestURL = `https://www.breakingbadapi.com/api/characters/` + id;
-    const request = new Request(requestURL);
-    const response = await fetch(request);
-    const data = await response.json();
-    console.log(data);
-    return data;
-
-}
 
 ```
 ```html
@@ -78,20 +88,4 @@ async function getById(id) {
             <p>Location:</p>
             <p>Email:</p>
         </div>
-```
-```css
-.btn {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 10%;
-  font-size: 18px;
-  height: 5%;
-  margin: 0%;
-}
 ```
